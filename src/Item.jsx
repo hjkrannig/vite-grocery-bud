@@ -10,7 +10,7 @@ const Item = ({ id, name, completed, removeItem, editItem }) => {
       />
       <p
         style={{
-          textTransform: 'capitalize',
+          // textTransform: 'capitalize',
           textDecoration: completed && 'line-through',
         }}
       >

@@ -262,12 +262,13 @@ ul {
   background: var(--white);
   border-radius: var(--borderRadius);
   padding: 2rem;
-  box-shadow: var(--shadow-2);
+  box-shadow: var(--shadow-1);
   transition: var(--transition);
 }
 .section-center:hover {
-  box-shadow: var(--shadow-4);
+  box-shadow: var(--shadow-3);
 }
+
 form h4 {
   text-align: center;
   margin-bottom: 1.5rem;
@@ -276,17 +277,17 @@ form h4 {
   display: grid;
   grid-template-columns: 1fr 100px;
 }
+.form-input {
+  border-radius: 0;
+  border-top-left-radius: var(--borderRadius);
+  border-bottom-left-radius: var(--borderRadius);
+}
 .form-control .btn {
   border-radius: 0;
   border-top-right-radius: var(--borderRadius);
   border-bottom-right-radius: var(--borderRadius);
 }
-.form-input {
-  border-radius: 0;
-  border-top-left-radius: var(--borderRadius);
-  border-bottom-left-radius: var(--borderRadius);
-  background: var(--primary-100);
-}
+
 .items {
   margin-top: 2rem;
   display: grid;
@@ -300,12 +301,12 @@ form h4 {
 }
 .single-item p {
   letter-spacing: var(--letterSpacing);
-  text-transform: capitalize;
 }
+
 .remove-btn {
-  padding: 0.15rem;
+  padding: 0.15rem 0.25rem;
   font-size: 0.75rem;
-  background: var(--primary-800);
+  background: var(--black);
 }
 
 .Toastify__toast {

@@ -17,7 +17,7 @@ const Form = ({ addItem }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <h2>grocery bud</h2>
+      <h4>grocery bud</h4>
       <div className="form-control">
         <input
           type="text"
